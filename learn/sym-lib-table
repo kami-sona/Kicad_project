@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CustomLibrary_sym")(type "KiCad")(uri "${KIPRJMOD}/CustomLibrary_sym.kicad_sym")(options "")(descr ""))
+  (lib (name "LMC555CMX_NOPB")(type "KiCad")(uri "/Users/oomikuoo/Downloads/LMC555CMX_NOPB/LMC555CMX_NOPB.kicad_sym")(options "")(descr ""))
+)
