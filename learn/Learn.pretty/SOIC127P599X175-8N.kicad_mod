@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P599X175-8N"
-		(at 1.25 4.75 0)
+	(property "Value" "555timer"
+		(at 0.25 4 0)
 		(layer "F.Fab")
 		(uuid "8924c098-492c-456b-b12d-9c54921fa7bb")
 		(effects
