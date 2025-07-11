@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DC-DC")(type "KiCad")(uri "${KIPRJMOD}/symbols/MC34063ECN.kicad_sym")(options "")(descr ""))
+  (lib (name "Diode")(type "KiCad")(uri "${KIPRJMOD}/symbols/1N5819.kicad_sym")(options "")(descr ""))
+)
