@@ -1,0 +1,203 @@
+(footprint "L_SXN_SMMS0650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, SXN, SMDRI62, 6.5x6.8x3.0mm, (https://www.sxndz.com/upload/202108/16/202108161607454319.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Inductor sxn smdri")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "7bb3d59f-cc5c-4bc4-8d1b-170f7627035f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_SXN_SMMS0650"
+		(at -0.2 5.6 0)
+		(layer "F.Fab")
+		(uuid "ddef6053-7e59-4809-903e-402673491f44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3f6c9f-5d7a-4050-8cfa-4415f689a873")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "558e57a6-98c7-449c-8d2e-7b1f856f958c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -3.66)
+		(end -4.1 -1.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f12564b6-d3d9-42bd-913e-0a3781d13ec4")
+	)
+	(fp_line
+		(start -4.1 -3.66)
+		(end 4.1 -3.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a28589b-d9de-4db7-a71d-30c0e0272eb9")
+	)
+	(fp_line
+		(start -4.1 3.65)
+		(end -4.1 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "396fcc77-05dc-462b-81ec-f4a494aaf156")
+	)
+	(fp_line
+		(start -4.075 3.65)
+		(end 4.125 3.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "890a0d0b-1fab-4c00-93f8-a1441f653be7")
+	)
+	(fp_line
+		(start 4.1 -3.67)
+		(end 4.1 -1.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56707a1c-17c7-45ca-9d37-7e821549212d")
+	)
+	(fp_line
+		(start 4.1 3.65)
+		(end 4.1 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5124f1f7-3cc2-4095-8b4e-5054a7eb7d50")
+	)
+	(fp_rect
+		(start -4.4 -4)
+		(end 4.4 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "946eb3d5-153b-42c3-9154-d995264e3d74")
+	)
+	(fp_line
+		(start -3.25 -3.4)
+		(end -3.25 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bffe9878-f63b-460a-a4b5-86a39c3105d5")
+	)
+	(fp_line
+		(start -3.25 3.4)
+		(end 3.25 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0ba6e6d-9ef5-43bd-9f00-416ec41a2a2d")
+	)
+	(fp_line
+		(start 3.25 -3.4)
+		(end -3.25 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d47aab5c-83b3-4e18-aeac-87b4c3aadb57")
+	)
+	(fp_line
+		(start 3.25 3.4)
+		(end 3.25 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bceae05c-ac2d-473c-9759-cc52b88cc221")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "c6abf2ea-3094-4827-b2f4-29a88df557a9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "8ef71f64-1ec9-4474-bf17-7465bfbb89f0")
+	)
+	(pad "2" smd roundrect
+		(at 3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "e716f588-2b7a-4d7f-a85d-e7d5598fc349")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMDRI62.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

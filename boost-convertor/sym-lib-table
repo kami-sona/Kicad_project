@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1N5819")(type "KiCad")(uri "${KIPRJMOD}/symbols/1N5819.kicad_sym")(options "")(descr ""))
+  (lib (name "3296W-1-104")(type "KiCad")(uri "${KIPRJMOD}/symbols/3296W-1-104.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1115IDGSR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADS1115IDGSR.kicad_sym")(options "")(descr ""))
+  (lib (name "atmega328P")(type "KiCad")(uri "${KIPRJMOD}/symbols/atmega328P.kicad_sym")(options "")(descr ""))
+  (lib (name "Display")(type "KiCad")(uri "${KIPRJMOD}/symbols/Display.kicad_sym")(options "")(descr ""))
+  (lib (name "MC34063ECN")(type "KiCad")(uri "${KIPRJMOD}/symbols/MC34063ECN.kicad_sym")(options "")(descr ""))
+  (lib (name "USB-C-6P")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB-C-6P.kicad_sym")(options "")(descr ""))
+)
