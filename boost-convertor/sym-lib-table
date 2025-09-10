@@ -7,4 +7,5 @@
   (lib (name "Display")(type "KiCad")(uri "${KIPRJMOD}/symbols/Display.kicad_sym")(options "")(descr ""))
   (lib (name "MC34063ECN")(type "KiCad")(uri "${KIPRJMOD}/symbols/MC34063ECN.kicad_sym")(options "")(descr ""))
   (lib (name "USB-C-6P")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB-C-6P.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX7219CWGT")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX7219CWGT.kicad_sym")(options "")(descr ""))
 )
