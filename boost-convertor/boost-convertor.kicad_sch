@@ -329,7 +329,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J3"
-				(at -8.89 2.5401 0)
+				(at -2.54 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -338,7 +338,7 @@
 				)
 			)
 			(property "Value" "AVR-ISP-6"
-				(at -8.89 0.0001 0)
+				(at 4.064 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -536,6 +536,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5625,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 163.83) (xy 170.18 163.83)
+			(xy 158.75 165.1) (xy 165.1 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 166.37) (xy 170.18 166.37)
+			(xy 158.75 167.64) (xy 165.1 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6145,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 175.26) (xy 163.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781ba9a5-69ad-465a-89a1-639688033ee3")
+	)
+	(wire
+		(pts
 			(xy 68.58 158.75) (xy 82.55 158.75)
 		)
 		(stroke
@@ -6555,7 +6583,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 171.45) (xy 170.18 171.45)
+			(xy 158.75 172.72) (xy 165.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6755,7 +6783,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 168.91) (xy 170.18 168.91)
+			(xy 158.75 175.26) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadce400-46e3-4d6f-917f-71e6077211b3")
+	)
+	(wire
+		(pts
+			(xy 158.75 170.18) (xy 165.1 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7184,7 +7222,7 @@
 		(uuid "608b831d-6a74-4ab6-9039-0842983d5736")
 	)
 	(label "MISO"
-		(at 170.18 163.83 0)
+		(at 165.1 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7194,7 +7232,7 @@
 		(uuid "75b27bb6-7b3f-4b11-9f33-f64bd5077d4c")
 	)
 	(label "SCK"
-		(at 170.18 168.91 0)
+		(at 165.1 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7204,7 +7242,7 @@
 		(uuid "81388122-3cd4-478d-8dbb-c1875f5d4cf9")
 	)
 	(label "RESET"
-		(at 170.18 171.45 0)
+		(at 165.1 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7224,7 +7262,7 @@
 		(uuid "8a847556-7075-4673-9897-40de7363b062")
 	)
 	(label "MOSI"
-		(at 170.18 166.37 0)
+		(at 165.1 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7631,16 +7669,15 @@
 	)
 	(symbol
 		(lib_id "Connector:AVR-ISP-6")
-		(at 156.21 168.91 0)
+		(at 148.59 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1519c9a8-4351-49a5-b67e-855489a4262b")
 		(property "Reference" "J3"
-			(at 147.32 166.3699 0)
+			(at 146.05 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7686,7 @@
 			)
 		)
 		(property "Value" "AVR-ISP-6"
-			(at 147.32 168.9099 0)
+			(at 152.654 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,8 +7694,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprint:AVR-4pin"
-			(at 149.86 167.64 90)
+		(property "Footprint" "footprint:AVR-5pin"
+			(at 142.24 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.825 182.88 0)
+			(at 116.205 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7713,7 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
-			(at 156.21 168.91 0)
+			(at 148.59 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,6 +7732,9 @@
 		)
 		(pin "3"
 			(uuid "06ba9720-e535-4245-b955-5ccb69704182")
+		)
+		(pin "5"
+			(uuid "ec615906-b951-4652-a733-02ab9be74565")
 		)
 		(instances
 			(project ""
@@ -7973,6 +8013,72 @@
 			(project "boost-convertor"
 				(path "/2978165a-4816-4cd6-bfe1-5d3d637e2db4"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228e7869-cb1a-4774-8b2f-3dc8bb38b483")
+		(property "Reference" "#PWR025"
+			(at 163.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10af0ac7-7544-4191-b001-a9e156e9abf5")
+		)
+		(instances
+			(project ""
+				(path "/2978165a-4816-4cd6-bfe1-5d3d637e2db4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8278,6 +8384,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 85.09 120.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8285,7 +8392,7 @@
 		(dnp no)
 		(uuid "2ac5ec63-6681-4d3c-b6a5-7bd2fbc6c48b")
 		(property "Reference" "C7"
-			(at 80.772 119.38 0)
+			(at 89.408 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8401,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 80.772 121.92 0)
+			(at 89.408 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8410,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.0552 124.46 0)
+			(at 84.1248 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +8926,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "451336ff-da00-4d5e-a173-262430bcc3cf")
 		(property "Reference" "U2"
 			(at 105.41 26.67 0)
@@ -8992,7 +9098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:DGS0010A_L"
+		(property "Footprint" "footprint:SSOP-24"
 			(at 49.53 129.54 0)
 			(effects
 				(font
@@ -9459,7 +9565,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72188381-f869-4d36-aff4-74d4ea03555c")
 		(property "Reference" "R3"
 			(at 68.58 54.6099 0)
@@ -10539,7 +10644,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2b0bf7e-2c49-42b4-b1f0-d5e14a37671d")
 		(property "Reference" "U3"
 			(at 233.68 96.52 0)
