@@ -9422,7 +9422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "18pf"
 			(at 128.27 171.4499 0)
 			(effects
 				(font
@@ -9777,7 +9777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "18pf"
 			(at 115.57 171.4499 0)
 			(effects
 				(font
